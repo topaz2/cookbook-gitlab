@@ -35,7 +35,7 @@ default['gitlab']['username_changing_enabled'] = true
 
 # Set github URL for gitlab
 default['gitlab']['git_url'] = 'git://github.com/gitlabhq/gitlabhq.git'
-default['gitlab']['git_branch'] = '6-4-stable'
+default['gitlab']['git_branch'] = '6-7-stable'
 
 # gitlab-shell attributes
 default['gitlab']['shell']['home'] = node['gitlab']['home'] + '/gitlab-shell'
